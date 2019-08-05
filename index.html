@@ -8,6 +8,8 @@
     <!--Bootstap-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
 </head>
 <body>
     <!--Nav Bar from Bootstrap-->
@@ -22,9 +24,9 @@
           <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Plots
-          </a>
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+         Plots
+       </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
             <a class="dropdown-item" href="temperature.html">Max Temperature</a>
             <a class="dropdown-item" href="humidity.html">Humidity</a>
@@ -54,7 +56,7 @@
                 <h1 class= "main-pg-header">Summary: Latitude vs. X</h1>
                 <hr>
                 <div class= "summary txt">
-                    <img id= "main-img" src= "https://github.com/chloeliu813/Bootstrap_Visualization/blob/master/Resources/assets/images/Humidity_vs_Latitude.png", alt= "Temp vs Latitude">
+                    <img id= "main-img" src= "https://raw.githubusercontent.com/chloeliu813/Bootstrap_Visualization/master/Resources/assets/images/Temp_vs_Latitude.png", alt= "Temp vs Latitude">
                     <p>
                         The purpose of this project was to analyze how weather changes as you get closer to the equator.
                         To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
@@ -70,10 +72,10 @@
                 <h2 class= "main-pg-subheader">Visualizations</h2>
                 <hr>
                 <div class= "sidebar">
-                    <a href= "temperature.html"><img id= "side-img1" src= "https://github.com/chloeliu813/Bootstrap_Visualization/blob/master/Resources/assets/images/Humidity_vs_Latitude.png", alt= "Temp vs. Latitude Scatterplt">,</a>
-                    <a href= "humidity.html"><img id= "side-img2" src= "https://github.com/chloeliu813/Bootstrap_Visualization/blob/master/Resources/assets/images/Fig2.png" , alt= "Humidity vs. Latitude Scatterplt"></a>
-                    <a href= "cloudiness.html"><img id= "side-img3" src= "https://github.com/chloeliu813/Bootstrap_Visualization/blob/master/Resources/assets/images/Cloudiness_vs_Latitude.png", alt= "Cloudiness vs. Latitude Scatterplt"></a>
-                    <a href= "wind.html"><img id= "side-img4" src= "https://github.com/chloeliu813/Bootstrap_Visualization/blob/master/Resources/assets/images/Wind_Speed_vs_Latitude.png", alt= "Wind Speed vs. Latitude Scatterplt"></a>
+                    <a href= "temperature.html"><img id= "side-img1" src= "https://raw.githubusercontent.com/chloeliu813/Bootstrap_Visualization/master/Resources/assets/images/Temp_vs_Latitude.png", alt= "Temp vs. Latitude Scatterplt">,</a>
+                    <a href= "humidity.html"><img id= "side-img2" src= "https://raw.githubusercontent.com/chloeliu813/Bootstrap_Visualization/master/Resources/assets/images/Humidity_vs_Latitude.png" , alt= "Humidity vs. Latitude Scatterplt"></a>
+                    <a href= "cloudiness.html"><img id= "side-img3" src= "https://raw.githubusercontent.com/chloeliu813/Bootstrap_Visualization/master/Resources/assets/images/Cloudiness_vs_Latitude.png", alt= "Cloudiness vs. Latitude Scatterplt"></a>
+                    <a href= "wind.html"><img id= "side-img4" src= "https://raw.githubusercontent.com/chloeliu813/Bootstrap_Visualization/master/Resources/assets/images/Wind_Speed_vs_Latitude.png", alt= "Wind Speed vs. Latitude Scatterplt"></a>
                     </div>
                 </div>
             </div>
