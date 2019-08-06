@@ -5,6 +5,7 @@ html {
 
   /* Box-model */
   min-height: 100%;
+  background-color: #fff3f4;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
-  background-color: #ededed;
+  background-color: #fff3f4;
 }
 
 /* Media query for body */
@@ -124,7 +125,8 @@ body {
   margin-top: 32px;
 
   /* Visual */
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: fff3f4;
 }
 
 .description-content > p {
@@ -269,5 +271,18 @@ body {
   /* Visual */
   background-color: #4aaaa5;
 }
+
+/* Comparision*/
+/* .containercomp {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.rowcomp {
+  content: "";
+  clear: both;
+  display: table;
+} */
 
 /* ----FOOTER END---- */
